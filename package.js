@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sgaluza:translit',
-  version: '0.0.1',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Transliteration for Meteor using ru.wikipedia.org/wiki/ISO_9 rules.',
   // URL to the Git repository containing the source code for this package.
@@ -13,9 +13,4 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('translit.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('sgaluza:translit');
 });

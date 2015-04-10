@@ -11,7 +11,7 @@
  * @Exampl : "example()"                              // Пример использования
  * GPL applies. No warranties XGuest[11.02.2015/03:44:01] translit [ver.0.0.0.4]
  *******************************************************************************/
-function translit(a, b) {
+translit = function (a, b) {
 
     b = function (c) {                   // c - Второй параметр родительской функции
         /* Function Expression
