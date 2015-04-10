@@ -4,6 +4,7 @@ It's a wrapper for popular translit library: https://github.com/xguest/iso_9_js/
 
 ## Usage
 
+```
 translit('привет мир', 1); // диакритика
 translit('привет мир', 2); // Беларусь
 translit('привет мир', 3); // Болгария
@@ -12,3 +13,4 @@ translit('привет мир', 5); // Россия
 translit('привет мир', 6); // Украина
 
 translit('privet mir', -1); // Обратная транслитерация
+```
