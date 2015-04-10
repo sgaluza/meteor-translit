@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sgaluza:translit',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'Transliteration for Meteor using ru.wikipedia.org/wiki/ISO_9 rules.',
   // URL to the Git repository containing the source code for this package.
